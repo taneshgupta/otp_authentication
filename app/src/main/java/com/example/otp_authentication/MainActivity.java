@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onVerificationFailed(FirebaseException e) {
-                Toast.makeText(MainActivity.this,"verification fialed",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"verification failed",Toast.LENGTH_SHORT).show();
             }
 
             @Override
